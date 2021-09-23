@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://bodega-motos-spring.herokuapp.com/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Usuario_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Contrasea_password'), '4nvbrPglk7k=')
+
+WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Contrasea_btn btn-primary btn-block'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Bodega Motocicletas/img'), 0)
+
+WebUI.closeBrowser()
+

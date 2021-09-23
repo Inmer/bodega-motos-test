@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Campo Nombre requerido en pantalla de agregar agencia</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b504abc4-ee96-467d-9639-d304caca3987</testCaseGuid>
+</TestCaseEntity>

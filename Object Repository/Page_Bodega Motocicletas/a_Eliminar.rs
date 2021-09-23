@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='marcas']/div/div/div/div/div[2]/table/tbody/tr[5]/td[4]/a</value>
+         <value>//section[@id='lineas']/div/div/div/div/div[2]/table/tbody/tr[3]/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/eliminarMarca?id_marca=3</value>
+      <value>/eliminarLinea?id_linea=2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,10 +51,38 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;marcas&quot;)/div[@class=&quot;container table-responsive&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-13&quot;]/div[@class=&quot;card&quot;]/div[2]/table[@class=&quot;table table-bordered table-dark&quot;]/tbody[1]/tr[5]/td[4]/a[@class=&quot;btn btn-dark&quot;]</value>
+      <value>id(&quot;lineas&quot;)/div[@class=&quot;container table-responsive&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-13&quot;]/div[@class=&quot;card&quot;]/div[2]/table[@class=&quot;table table-bordered table-dark&quot;]/tbody[1]/tr[3]/td[5]/a[@class=&quot;btn btn-dark&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='lineas']/div/div/div/div/div[2]/table/tbody/tr[3]/td[5]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nueva Linea'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/eliminarLinea?id_linea=2')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[5]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

@@ -25,19 +25,21 @@ WebUI.setText(findTestObject('Object Repository/Page_Bodega Motocicletas/input_U
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Contrasea_password'), '4nvbrPglk7k=')
 
-WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Contrasea_btn btn-primary btn-block'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Contrasea_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/a_Marcas'))
+WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/a_Lineas'))
 
-WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/a_Agregar Marca'))
+WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/a_Agregar Linea'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Nombre_nombre'), 'Nueva Marca')
+WebUI.setText(findTestObject('Object Repository/Page_Bodega Motocicletas/input_Nombre_nombre'), 'Nueva Linea')
 
 WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/button_Guardar'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Bodega Motocicletas/td_Nueva Marca'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Bodega Motocicletas/td_Nueva Linea'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Bodega Motocicletas/td_Nueva Marca'), 'Nueva Marca')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Bodega Motocicletas/td_Nueva Linea'), 'Nueva Linea')
+
+WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/div_Listado de lineas                      _a99f88'))
 
 WebUI.click(findTestObject('Object Repository/Page_Bodega Motocicletas/a_Eliminar'))
 
